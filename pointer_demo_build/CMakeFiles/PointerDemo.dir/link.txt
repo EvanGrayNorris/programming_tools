@@ -1,0 +1,1 @@
+/usr/bin/cc   -rdynamic CMakeFiles/PointerDemo.dir/pointer_demo.c.o  -o PointerDemo 

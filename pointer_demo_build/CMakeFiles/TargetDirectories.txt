@@ -1,3 +1,0 @@
-/home/evan/Documents/programming_tools/pointer_demo_build/CMakeFiles/rebuild_cache.dir
-/home/evan/Documents/programming_tools/pointer_demo_build/CMakeFiles/edit_cache.dir
-/home/evan/Documents/programming_tools/pointer_demo_build/CMakeFiles/PointerDemo.dir

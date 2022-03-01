@@ -1,0 +1,1 @@
+/usr/bin/cc   -rdynamic CMakeFiles/adder.app.dir/main.o CMakeFiles/adder.app.dir/functions.o  -o adder.app 

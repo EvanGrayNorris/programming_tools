@@ -1,0 +1,3 @@
+/home/evan/projects/programming_tools/multi_file_c_demo/build/CMakeFiles/rebuild_cache.dir
+/home/evan/projects/programming_tools/multi_file_c_demo/build/CMakeFiles/adder.app.dir
+/home/evan/projects/programming_tools/multi_file_c_demo/build/CMakeFiles/edit_cache.dir

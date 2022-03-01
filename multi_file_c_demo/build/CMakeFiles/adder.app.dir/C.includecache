@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/evan/projects/programming_tools/multi_file_c_demo/functions.c
+functions.h
+/home/evan/projects/programming_tools/multi_file_c_demo/functions.h
+
+/home/evan/projects/programming_tools/multi_file_c_demo/functions.h
+
+/home/evan/projects/programming_tools/multi_file_c_demo/main.c
+stdio.h
+-
+functions.h
+/home/evan/projects/programming_tools/multi_file_c_demo/functions.h
+

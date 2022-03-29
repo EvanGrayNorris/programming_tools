@@ -1,0 +1,15 @@
+{
+    "Models": 
+    {
+        "model0" : {
+            "Path" : "path/to/model1",
+            "Name" : "Model1"
+        },
+
+        "model1" : {
+            "Path" : "path/to/model2",
+            "Name" : "Model2"
+        }
+    }
+     
+}

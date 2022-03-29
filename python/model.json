@@ -1,0 +1,73 @@
+{
+    "Convolution Layers": 
+    {
+        "layer0" : {
+            "Pooling" : {
+                "apply" : 1,
+                "pool size" : 3
+            },
+            "Dropout" : {
+                "apply" : 1,
+                "dropout factor" : 0.2
+
+            },
+            "Convolution" : {
+                "Filters" : 40,
+                "pool size" : 3,
+                "padding" : "same"
+            }
+
+        },
+
+        "layer1" : {
+            "Pooling" : {
+                "apply" : 0,
+                "pool size" : 3
+            },
+            "Dropout" : {
+                "apply" : 0,
+                "dropout factor" : 0.2
+
+            },
+            "Convolution" : {
+                "Filters" : 40,
+                "pool size" : 3,
+                "padding" : "same"
+            }
+
+        }
+    },
+
+    "Fully Connected Layers": 
+    {
+    
+        "layer0" : {
+            "Neurons" : 256
+        },
+        "layer1" : {
+            "Neurons": 256
+        },
+        "layer2" : {
+            "Neurons": 256
+        }
+    },
+
+    "Hyperparameters" : 
+    {
+        "activation function" : "relu",
+        "epoch size" : 100,
+        "batch size" : 128
+    },
+
+    "Data Pathing" : {
+        "main path": "/scratch/egnorris/remove_spikey_full/data/",
+        "training_image":"X_img_0_1_1_train.pkl",
+        "training_info":"X_info_0_1_1_train.pkl",
+        "training_labels":"y_labels_0_1_1_train.pkl",
+        "testing_image":"X_img_0_1_1_test.pkl",
+        "testing_info":"X_info_0_1_1_test.pkl",
+        "testing_labels":"y_labels_0_1_1_test.pkl"
+    }
+
+  
+}
